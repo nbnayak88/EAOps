@@ -16,6 +16,9 @@ Week: {{Sunday start date}} to {{Thursday end date}} | Update time: 5:00 PM IST
 - UC-xx {{use case name}}: {{field}} {{old}} -> {{new}}
 - (none) if nothing moved
 
+## Added / removed
+- Added: UC-xx {{name}} | Removed: UC-xx {{name}} ({{reason}}) | (none)
+
 ## Blocked / waiting
 | Use case | Waiting on (function) | Since | Next nudge |
 |---|---|---|---|

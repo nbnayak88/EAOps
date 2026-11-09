@@ -43,6 +43,17 @@ The user supplies status by any of: a screenshot of the work-item query, a paste
 6. **Commit and push** to `main` with message `HLD status: YYYY-MM-DD` (weekly: `HLD weekly: YYYY-Www`).
 7. **Self-check before push**: grep the changed files for any person or client name; if one appears, fix it first.
 
+## Adding, removing and renaming HLDs
+
+The user can say, in plain words, "add HLD <name>", "remove HLD <name>", "rename UC-xx to <name>" or "pause UC-xx". Handle it at once, in any session, and log it in that day's note under "Added / removed".
+
+- **Add**: append a row to `tracker/hld-tracker.csv` with the next free ID (highest ever used + 1, counting archived rows; never reuse an ID). Anonymise and curate the name first. Unknown fields are `TBC`; set `added_on` to today.
+- **Remove**: never delete history. Move the row from `tracker/hld-tracker.csv` to `tracker/hld-archive.csv`, adding `removed_on` and `reason` (one of: Completed, Cancelled, Merged into UC-xx, Deferred, Out of scope). Archived rows are excluded from snapshot counts.
+- **Pause / defer**: keep the row, set `use_case_stage` to `On hold`, and note the reason in the daily note. On-hold rows are counted separately.
+- **Rename**: change only the `use_case` field; the ID stays. Note the old name once in the daily note.
+- **Restore**: move the row back from the archive, keep its original ID, note it in the daily note.
+- Weekly rollup: list everything added or removed that week under "New or removed use cases".
+
 ## Unattended run (scheduled 5 PM trigger)
 
 The scheduled run cannot ask for status, so it:
@@ -64,7 +75,8 @@ Keep values exactly as used in the source query so counts stay comparable.
 
 ## Files
 
-- `tracker/hld-tracker.csv` - single source of truth, one row per use case
+- `tracker/hld-tracker.csv` - single source of truth, one row per active use case
+- `tracker/hld-archive.csv` - removed, completed or cancelled use cases (history kept)
 - `templates/daily-note.md`, `templates/weekly-rollup.md`
 - `references/anonymisation-rules.md`
 - `notes/daily/`, `notes/weekly/` - outputs
