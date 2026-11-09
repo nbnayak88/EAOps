@@ -1,0 +1,36 @@
+name: HLD record
+description: Track one High-Level Design (use case) through the pipeline
+title: "UC-XX <use case name>"
+labels: ["hld"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use-case names only. No client names, no person names (this repo is public).
+  - type: input
+    id: use_case
+    attributes:
+      label: Use case name (curated)
+    validations:
+      required: true
+  - type: dropdown
+    id: business_line
+    attributes:
+      label: Business line
+      options: [TS, HSSE, RM&C, NG, HR&CS, Other]
+    validations:
+      required: true
+  - type: input
+    id: planned_year
+    attributes:
+      label: Planned year
+      placeholder: "2027"
+  - type: dropdown
+    id: ideation
+    attributes:
+      label: Ideation status
+      options: [Not Started, In Progress, Waiting, Pending, Completed]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (anonymised)

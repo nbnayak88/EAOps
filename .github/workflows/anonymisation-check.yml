@@ -1,0 +1,16 @@
+name: Anonymisation check
+on:
+  push:
+    paths: ["notes/**", "tracker/**"]
+  pull_request:
+    paths: ["notes/**", "tracker/**"]
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Block emails and assignee columns
+        run: |
+          if grep -rniE "[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,}|assigned[ _]to" notes tracker; then
+            echo "Possible personal data found. Anonymise before merging."; exit 1
+          fi
