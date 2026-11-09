@@ -1,14 +1,14 @@
-id,business_line,use_case,planned_year,workflow_state,use_case_stage,wer,ideation_status,bl_status,vr_status,added_on,last_updated
-UC-01,TS,Supply Chain Control Tower,2027,EAO,VR Business review,False,Completed,New,Pending RC,2026-11-09,2026-11-09
-UC-02,HSSE,Management of Change,2027,EAO,EAO SA in progress,False,Completed,Requirements (TBC),Pending RC,2026-11-09,2026-11-09
-UC-03,RM&C,Key Control Testing,2027,EAO,EAO SA in progress,True,Completed,In Progress,Not Applicable,2026-11-09,2026-11-09
-UC-04,NG,AI for Employee Assistant - Phase 1,2027,EAO,EAO CS A (TBC),False,In Progress,Completed,Waiting For (TBC),2026-11-09,2026-11-09
-UC-05,HR&CS,Integrated HR Analytics Platform,2027,EAO,In Progress,False,In Progress,Completed,Pending RC,2026-11-09,2026-11-09
-UC-06,RM&C,Enterprise Control Testing & Fraud-Integrated Monitoring,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09
-UC-07,RM&C,Enterprise Policy Register Automation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09
-UC-08,RM&C,Automated DoA Booklet Generation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09
-UC-09,RM&C,New GRC System,2027,EAO,EAO,False,In Progress,In Progress,Waiting For (TBC),2026-11-09,2026-11-09
-UC-10,HSSE,Unified ICAD System,2027,EAO,Pending (TBC),False,Completed,Review In Progress,Waiting For (TBC),2026-11-09,2026-11-09
-UC-11,RM&C,AI Powered Enterprise Risk Analysis & Dynamic Risk Register,2027,EAO,Not Started,True,Completed,Review In Progress,Not Applicable,2026-11-09,2026-11-09
-UC-12,HR&CS,Employee Recognition Program,2027,EAO,Demand (TBC),False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09
-UC-13,HR&CS,AI-powered HR Performance Management System,2027,EAO,EAO SA in progress,False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09
+id,business_line,use_case,planned_year,workflow_state,use_case_stage,wer,ideation_status,bl_status,vr_status,added_on,last_updated,issue
+UC-01,TS,Supply Chain Control Tower,2027,EAO,VR Business review,False,Completed,New,Pending RC,2026-11-09,2026-11-09,1
+UC-02,HSSE,Management of Change,2027,EAO,EAO SA in progress,False,Completed,Requirements (TBC),Pending RC,2026-11-09,2026-11-09,2
+UC-03,RM&C,Key Control Testing,2027,EAO,EAO SA in progress,True,Completed,In Progress,Not Applicable,2026-11-09,2026-11-09,3
+UC-04,NG,AI for Employee Assistant - Phase 1,2027,EAO,EAO CS A (TBC),False,In Progress,Completed,Waiting For (TBC),2026-11-09,2026-11-09,4
+UC-05,HR&CS,Integrated HR Analytics Platform,2027,EAO,In Progress,False,In Progress,Completed,Pending RC,2026-11-09,2026-11-09,5
+UC-06,RM&C,Enterprise Control Testing & Fraud-Integrated Monitoring,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,6
+UC-07,RM&C,Enterprise Policy Register Automation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,7
+UC-08,RM&C,Automated DoA Booklet Generation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,8
+UC-09,RM&C,New GRC System,2027,EAO,EAO,False,In Progress,In Progress,Waiting For (TBC),2026-11-09,2026-11-09,9
+UC-10,HSSE,Unified ICAD System,2027,EAO,Pending (TBC),False,Completed,Review In Progress,Waiting For (TBC),2026-11-09,2026-11-09,10
+UC-11,RM&C,AI Powered Enterprise Risk Analysis & Dynamic Risk Register,2027,EAO,Not Started,True,Completed,Review In Progress,Not Applicable,2026-11-09,2026-11-09,11
+UC-12,HR&CS,Employee Recognition Program,2027,EAO,Demand (TBC),False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09,12
+UC-13,HR&CS,AI-powered HR Performance Management System,2027,EAO,EAO SA in progress,False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09,13

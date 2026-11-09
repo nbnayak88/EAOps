@@ -54,6 +54,18 @@ The user can say, in plain words, "add HLD <name>", "remove HLD <name>", "rename
 - **Restore**: move the row back from the archive, keep its original ID, note it in the daily note.
 - Weekly rollup: list everything added or removed that week under "New or removed use cases".
 
+## GitHub issues and Project board
+
+Every HLD has one issue in this repo (`UC-xx <name>`, number stored in the tracker `issue` column). The GitHub Project board is a view over these issues; the CSV stays the source of truth.
+
+GraphQL is blocked in Claude sessions, so use the REST API (`gh api`):
+- **Add HLD**: create an issue (`POST repos/nbnayak88/EAOps/issues`) with labels `hld`, `bl:<BL>`, `ideation:<status>`; store the number in the tracker.
+- **Status change**: `PATCH` the issue body table and swap the `ideation:*` label; add a short anonymised comment with the date.
+- **Remove HLD**: comment the reason, add label `removed`, close the issue (`state: closed`, `state_reason: not_planned` for Cancelled/Out of scope, `completed` for Completed).
+- **Restore**: reopen the issue and remove the `removed` label.
+- Issues must never contain person or client names (the repo is public).
+- The Project board itself (columns, grouping, auto-add of new issues) is configured once in the GitHub UI; Claude cannot create or edit Projects from a session.
+
 ## Unattended run (scheduled 5 PM trigger)
 
 The scheduled run cannot ask for status, so it:
