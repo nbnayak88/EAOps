@@ -1,15 +1,153 @@
-id,business_line,use_case,planned_year,workflow_state,use_case_stage,wer,ideation_status,bl_status,vr_status,added_on,last_updated,issue
-UC-01,TS,Supply Chain Control Tower,2027,EAO,VR Business review,False,Completed,New,Pending RC,2026-11-09,2026-11-09,1
-UC-02,HSSE,Management of Change,2027,EAO,EAO SA in progress,False,Completed,Requirements (TBC),Pending RC,2026-11-09,2026-11-09,2
-UC-03,RM&C,Key Control Testing,2027,EAO,EAO SA in progress,True,Completed,In Progress,Not Applicable,2026-11-09,2026-11-09,3
-UC-04,NG,AI for Employee Assistant - Phase 1,2027,EAO,EAO CS A (TBC),False,In Progress,Completed,Waiting For (TBC),2026-11-09,2026-11-09,4
-UC-05,HR&CS,Integrated HR Analytics Platform,2027,EAO,In Progress,False,In Progress,Completed,Pending RC,2026-11-09,2026-11-09,5
-UC-06,RM&C,Enterprise Control Testing & Fraud-Integrated Monitoring,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,6
-UC-07,RM&C,Enterprise Policy Register Automation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,7
-UC-08,RM&C,Automated DoA Booklet Generation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,8
-UC-09,RM&C,New GRC System,2027,EAO,EAO,False,In Progress,In Progress,Waiting For (TBC),2026-11-09,2026-11-09,9
-UC-10,HSSE,Unified ICAD System,2027,EAO,Pending (TBC),False,Completed,Review In Progress,Waiting For (TBC),2026-11-09,2026-11-09,10
-UC-11,RM&C,AI Powered Enterprise Risk Analysis & Dynamic Risk Register,2027,EAO,Not Started,True,Completed,Review In Progress,Not Applicable,2026-11-09,2026-11-09,11
-UC-12,HR&CS,Employee Recognition Program,2027,EAO,Demand (TBC),False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09,12
-UC-13,HR&CS,AI-powered HR Performance Management System,2027,EAO,EAO SA in progress,False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09,13
-UC-14,Legal,Virtual Legal Assistant,2027,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-09,2026-11-09,14
+id,business_line,use_case,planned_year,workflow_state,use_case_stage,wer,ideation_status,bl_status,vr_status,added_on,last_updated,issue,enterprise_domain
+UC-01,SCM,Supply Chain Control Tower,2027,EAO,VR Business review,False,Completed,New,Pending RC,2026-11-09,2026-11-09,1,SCM
+UC-02,BTM,Management of Change,2027,EAO,EAO SA in progress,False,Completed,Requirements (TBC),Pending RC,2026-11-09,2026-11-09,2,BTM
+UC-03,Leadership,Key Control Testing,2027,EAO,EAO SA in progress,True,Completed,In Progress,Not Applicable,2026-11-09,2026-11-09,3,Leadership
+UC-04,HR,AI Employee Assistant,2027,EAO,EAO CS A (TBC),False,In Progress,Completed,Waiting For (TBC),2026-11-09,2026-11-09,4,HR
+UC-05,HR,Integrated HR Analytics Platform,2027,EAO,In Progress,False,In Progress,Completed,Pending RC,2026-11-09,2026-11-09,5,HR
+UC-06,Leadership,Enterprise Control Testing & Fraud-Integrated Monitoring,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,6,Leadership
+UC-07,Leadership,Enterprise Policy Register Automation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,7,Leadership
+UC-08,SCM,Automated DoA Booklet Generation,2027,EAO,EAO,False,In Progress,New,Not Applicable,2026-11-09,2026-11-09,8,SCM
+UC-09,BTM,Enterprise GRC Platform,2027,EAO,EAO,False,In Progress,In Progress,Waiting For (TBC),2026-11-09,2026-11-09,9,BTM
+UC-10,BTM,Unified Incident and Case Management,2027,EAO,Pending (TBC),False,Completed,Review In Progress,Waiting For (TBC),2026-11-09,2026-11-09,10,BTM
+UC-11,SCM,AI Powered Enterprise Risk Analysis & Dynamic Risk Register,2027,EAO,Not Started,True,Completed,Review In Progress,Not Applicable,2026-11-09,2026-11-09,11,SCM
+UC-12,HR,Employee Recognition Program,2027,EAO,Demand (TBC),False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09,12,HR
+UC-13,HR,AI-powered HR Performance Management System,2027,EAO,EAO SA in progress,False,Waiting for (TBC),In Progress,Waiting For (TBC),2026-11-09,2026-11-09,13,HR
+UC-14,BTM,Virtual Legal Assistant,2027,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-09,2026-11-09,14,BTM
+UC-015,Leadership,Internal Audit Knowledge Assistant,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-016,BTM,Change Request Lifecycle Tracking,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-017,CRM,Customer Collection Risk Prioritization,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-018,SCM,Asset Location Optimization,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-019,BTM,Enterprise Data Warehouse,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-020,CRM,AI Marketing Content Copilot,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-021,SCM,Asset Operating Integrity Window Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-022,BTM,Statistical Anomaly Detection,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-023,BTM,Data Validation and Reconciliation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-024,BTM,Performance Modeling and Tracking,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-025,BTM,Ancillary Services Optimization,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-026,BTM,Vibration Predictive Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-027,SCM,Predictive Asset Failure,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-028,BTM,Online Fault Modeling,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-029,SCM,Asset Reliability and Integrity Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-030,BTM,Operations Monitoring and Prognostics Center,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-031,BTM,Emissions Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-032,BTM,Collaborative Operations Planning,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-033,HR,Unified Employee Experience Portal,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-034,BTM,Confined Space Safety Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-035,HR,Immersive Safety Training,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-036,BTM,Drone-Based Inspection and Response,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-037,SCM,AI-Assisted Transmission Inspection,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-038,Procurement,Compliance-Based Supplier Qualification,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-039,Leadership,Investment Risk Assessment,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-040,Leadership,Automated Regulatory Reporting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-041,HR,Digital Skills Development Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-042,Procurement,Supplier Risk Prediction and Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-043,Leadership,Continuous Audit Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-044,SCM,Operational Distribution System Modernization,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-045,HR,Field Workforce Enablement,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-046,BTM,Operational Technology Insights Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-047,HR,AI-Enabled Talent Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-048,CRM,Sales and Customer Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-049,BTM,Enterprise Insights AI Assistant,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-050,Procurement,AI-Assisted Procurement and Contract Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-051,Procurement,Procurement Compliance Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-052,Procurement,Procurement Platform Validation Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-053,BTM,Enterprise System Performance Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-054,SCM,Digital Work Permit Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-055,BTM,PPE Automation Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-056,CRM,Fraud and Revenue Operations Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-057,FI,Investment Reporting Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-058,Procurement,Warehouse Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-059,HR,Internship and Training Program Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-060,BTM,Visitor Queue Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-061,FI,Cost Estimation Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-062,FI,Financial Control Operations Center,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-063,SCM,Network Readiness Dashboard Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-064,Leadership,Regulatory Compliance Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-065,BTM,Integrated Real-Time Enterprise Dashboards,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-066,HR,Professional Certification Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-067,SCM,Fleet Efficiency Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-068,HR,Employee Engagement Journey Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-069,Procurement,Supplier Qualification Performance Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-070,HR,Digital Learning Content Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-071,BTM,Engineering Design Software Enablement,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-072,BTM,Administrative Business Portal,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-073,FI,Digital Payments Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-074,BTM,Radio Communication System Integration,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-075,BTM,Localization KPI Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-076,Leadership,Delegation of Authority Matrix Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-077,SCM,Transmission Performance Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-078,Leadership,Executive Affairs Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-079,CRM,Finance Sales Analytics and Reporting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-080,CRM,Sensitive Customer Data Masking,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-081,CRM,Tax-Period Sales and Purchases Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-082,SCM,Environmental Permit Portal,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-083,SCM,Maintenance Planning Optimization,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-084,BTM,Service Activation Letter Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-085,HR,VR-Based Safety Training,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-086,BTM,Paperless Operations Initiative,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-087,Procurement,Transport Contract Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-088,FI,Project Financial Tracking,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-089,BTM,Unified Business Performance Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-090,SCM,Asset Management Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-091,BTM,External Service Request Portal,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-092,BTM,Inspection Process Management Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-093,BTM,Digital Operations Logbook,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-094,BTM,Service Connection Agreement E-Forms,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-095,Leadership,Central Internal Controls,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-096,BTM,Operational Visibility Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-097,BTM,Work Clearance Management Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-098,Procurement,Contractor Prequalification,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-099,CRM,Customer Service Regulatory Enhancements,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-100,BTM,Portal AI Copilot,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-101,Leadership,Executive Performance Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-102,BTM,Document Printing Exception Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-103,BTM,Security KPI Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-104,HR,Contractor Workforce Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-105,CRM,Smart Key Account Manager Assistant,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-106,FI,Tax Billing Reconciliation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-107,SCM,Outage Analysis Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-108,BTM,Business Integrity Reporting Channel,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-109,HR,Time and Attendance Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-110,BTM,Environmental Performance System,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-111,SCM,Outage Integration and Tracking,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-112,SCM,Grid Connection Compliance Portal,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-113,Leadership,Regulatory Data Excellence Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-114,SCM,Unified Permit-to-Work Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-115,BTM,Self-Service Performance Analytics,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-116,SCM,Aerial Network Inspection,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-117,SCM,Low-Performing Asset Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-118,BTM,Intellectual Property Discovery AI Agent,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-119,BTM,Intellectual Property Filing Recommendations,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-120,BTM,Corrective and Preventive Action Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-121,BTM,Operational Data Integration,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-122,FI,Energy Settlement and Reporting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,FI
+UC-123,BTM,Facility Services AI Agent,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-124,SCM,Power Quality Reporting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-125,BTM,Alarm Notification System,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-126,BTM,Knowledge Transfer Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-127,CRM,Service Consumption and Sales Reporting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,CRM
+UC-128,BTM,Service Management Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-129,Procurement,Contract Change Order Workflow,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Procurement
+UC-130,BTM,Electronic Discovery Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-131,Leadership,Regulatory KPI Automation,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-132,BTM,Enterprise Safety Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-133,BTM,Performance Management Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-134,SCM,Property and Network Interference Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-135,Leadership,Risk Register Optimization Copilot,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-136,BTM,Decision Support KPI Dashboard,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-137,BTM,Communications Announcement Copilot,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-138,BTM,Renewable Self-Consumption Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-139,SCM,Integrated Fleet Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-140,BTM,Legal Document Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-141,Leadership,Regulatory Reporting Portal,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-142,SCM,AI-Powered Knowledge Hub,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-143,BTM,Automated Event Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-144,BTM,AI Data Quality Recommendations,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-145,BTM,Computer Vision Corrosion Detection,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-146,BTM,Broadband Demand Forecasting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,BTM
+UC-147,SCM,Power Demand Forecasting,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-148,Leadership,Automated Regulatory Control Testing,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-149,Leadership,Internal Control Management Platform,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
+UC-150,HR,AI-Powered HR Performance Management,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,HR
+UC-151,SCM,AI-Powered Enterprise Risk Register,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,SCM
+UC-152,Leadership,Enterprise Control Testing and Fraud Monitoring,,TBC,TBC,TBC,TBC,TBC,TBC,2026-11-11,2026-11-11,,Leadership
