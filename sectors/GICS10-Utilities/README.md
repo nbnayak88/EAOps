@@ -6,6 +6,7 @@ This portfolio contains **152** client-neutral scenario copies derived from the 
 
 ## Files
 - [152-use-case Utilities scenario registry](utility-use-cases.csv)
+- [Case study: UC-106 Statutory E-Invoicing Reconciliation with SAP DRC](case-studies/UC-106-statutory-einvoicing-reconciliation-sap-drc.md) (illustrative, anonymised)
 - [EAOps master register](../../tracker/hld-tracker.csv) (source of truth; do not duplicate its confidential operational fields)
 
 ## How to use
